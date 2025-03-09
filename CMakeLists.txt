@@ -8,4 +8,4 @@ set(CMAKE_CXX_FLAGS "-fPIC -g -pedantic -Wall -Wextra")
 include_directories(src)
 
 # Build the actual library
-add_library(I2C SHARED src/I2C.h src/I2C.cpp)
+add_library(I2C SHARED src/i2c.h src/i2c.cpp)
